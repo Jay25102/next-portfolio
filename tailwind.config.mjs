@@ -12,6 +12,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      'serif': ['Montserrat']
+    }
   },
   plugins: [],
 };
