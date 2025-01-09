@@ -15,10 +15,8 @@ const RootLayout = ({children}) => {
   return (
     <html lang="en" className={montserrat.className}>
         <body>
-            <div className="main">
-            </div>
-
-            <main className="app bg-light-blue-cust">
+          {/*  className="app bg-light-blue-cust" */}
+            <main>
                 {children}
             </main>
         </body>

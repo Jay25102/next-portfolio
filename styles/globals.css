@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.body-block {
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 0 45px
+}
+
 .bar {
   display: block;
   box-sizing: border-box;
