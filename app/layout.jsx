@@ -18,7 +18,7 @@ const RootLayout = ({children}) => {
             <div className="main">
             </div>
 
-            <main className="app">
+            <main className="app bg-light-blue-cust">
                 {children}
             </main>
         </body>

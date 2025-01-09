@@ -2,17 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.app {
-  background: lightblue;
-}
-
 .bar {
   display: block;
   box-sizing: border-box;
   height: 100%;
   width:50px;
   position: fixed;
-  background: aqua;
   border: 0 none;
   margin: 0;
   padding: 0;
@@ -34,7 +29,6 @@
     height: 100%;
     width:0px;
     position: fixed;
-    background: aqua;
     border: 0 none;
     margin: 0;
     padding: 0;
