@@ -7,9 +7,13 @@ export const metadata = {
     description: "Browse and upload desktop images"
 }
 
+const montserrat = Montserrat({
+  subsets: ['latin']
+})
+
 const RootLayout = ({children}) => {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.className}>
         <body>
             <div className="main">
             </div>

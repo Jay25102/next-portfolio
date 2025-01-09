@@ -12,7 +12,7 @@ const Home = () => {
         {/* body stuff */}
         <section className="w-full">
             {/* make explore/share links */}
-            <h1>Explore and Share Desktop Wallpapers</h1>
+            <h1 className="text-7xl font-bold">Explore and Share Desktop Wallpapers</h1>
         </section>
         {/* footer */}
         <Footer/>
