@@ -1,5 +1,6 @@
 import Header from "@components/header";
 import Footer from "@components/footer";
+import HomeText from "@components/home-text";
 
 const Home = () => {
   return (
@@ -13,10 +14,7 @@ const Home = () => {
         <div className="box-border block bg-light-blue-cust">
           <div className="box-border block body-block px-8 relative flex justify-center items-center">
               {/* make explore/share links */}
-              {/* center */}
-              <h1 className="text-7xl font-bold text-white-cust text-center align-middle w-4/5 h-auto">
-                <span className="text-orange-cust">Explore</span> and <span className="text-blue-cust">Share</span> Desktop Wallpapers
-              </h1>
+              <HomeText/>
           </div>
         </div>
         {/* footer */}

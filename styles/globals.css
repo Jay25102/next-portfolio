@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.transitioning-exit {
+  animation-name: slide-exit;
+  animation-duration: .5s;
+  overflow: hidden;
+  transform: translateX(0%);
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+@keyframes slide-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+}
+
+.transitioning-enter {
+  opacity: 1;
+  animation-name: slide-enter;
+  animation-duration: 2s;
+  overflow: hidden;
+}
+
+@keyframes slide-enter {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
 .body-block {
   height: calc(100vh - 100px);
   width: 100%;
