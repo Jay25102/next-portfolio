@@ -2,11 +2,12 @@ import Link from "@node_modules/next/link";
 
 const Header = () => {
   return (
-    <header className='bg-white-cust flex flex-nowrap justify-between'>
-      <Link href="#" className="flex">WallAisle</Link>
-      <Link href="#" className="flex">Home</Link>
-      <Link href="#" className="flex">About</Link>
-      <Link href="#" className="flex">Contact</Link>
+    <header className='flex flex-nowrap justify-between sticky top-0 z-10 m-0 items-center font-medium'>
+      {/* replace with logo */}
+      <Link href="#">WallAisle</Link>
+      <Link href="#">This Project</Link>
+      <Link href="#">About</Link>
+      <Link href="#">Contact</Link>
     </header>
   )
 }
