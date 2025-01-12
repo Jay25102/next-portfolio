@@ -30,7 +30,6 @@ const HomeText = () => {
 
     return (
         <div className="text-8xl font-bold text-white-cust text-justify align-middle w-4/5 h-auto flex flex-col gap-y-4">
-            {/* separate text into three layers like uxpert */}
             <div id="text-to-morph" className={`${inAnimation ? "transitioning-exit" : "transitioning-enter"} text-orange-cust`}>{morphingText}</div>
             <div>Desktop</div>
             <div>Wallpapers</div>
