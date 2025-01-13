@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.about-me-text {
+  padding: 0px 100px;
+}
+
+.about-me-title {
+  padding-bottom: 12px;
+}
+
 footer {
   padding: 0px 75px;
   transition: ease-out .5s;
@@ -11,7 +19,7 @@ footer {
 }
 
 header {
-  padding: 0px 75px;
+  padding: 0px 50px;
   transition: ease-out .5s;
   height: 45px;
   font-size: 20px;
@@ -55,10 +63,16 @@ header {
   }
 }
 
+.body-about-me {
+  height: 50vh;
+  width: 100%;
+  padding: 0px 45px;
+}
+
 .body-block {
   height: calc(100vh - 45px);
   width: 100%;
-  padding: 0 45px
+  padding: 0px 45px
 }
 
 .bar {
@@ -85,10 +99,6 @@ header {
   header {
     padding: 0px 15px;
     background-color: #6793AC;
-  }
-
-  footer {
-    visibility: hidden;
   }
 
   .bar {
