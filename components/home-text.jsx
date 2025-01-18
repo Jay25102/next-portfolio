@@ -4,7 +4,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 
 const HomeText = () => {
-    const [morphingText, setMorphingText] = useState("Explore");
+    const [morphingText, setMorphingText] = useState("Design");
     const [inAnimation, setInAnimation] = useState(false);
 
     useEffect(() => {
@@ -16,11 +16,14 @@ const HomeText = () => {
         else {
             setTimeout(() => {
                 setInAnimation(false);
-                if (morphingText === "Explore") {
-                    setMorphingText("Share");
+                if (morphingText === "Design") {
+                    setMorphingText("Build");
                 }
-                else {
-                    setMorphingText("Explore");
+                else if (morphingText === "Build") {
+                    setMorphingText("Deploy");
+                }
+                else if (morphingText === "Deploy") {
+                    setMorphingText("Design");
                 }
             }, 500);
         }
@@ -29,10 +32,9 @@ const HomeText = () => {
 
 
     return (
-        <div className="text-8xl font-bold text-white-cust text-justify align-middle w-4/5 h-auto flex flex-col gap-y-4">
-            <div id="text-to-morph" className={`${inAnimation ? "transitioning-exit" : "transitioning-enter"} text-orange-cust`}>{morphingText}</div>
-            <div>Desktop</div>
-            <div>Wallpapers</div>
+        <div className="text-8xl font-bold text-white-cust text-justify align-middle w-4/5 h-auto flex flex-col">
+            <div id="text-to-morph" className={`${inAnimation ? "transitioning-exit" : "transitioning-enter"} text-orange-cust home-text`}>{morphingText}</div>
+            <div className='home-text'>Websites</div>
         </div>
     )
 }

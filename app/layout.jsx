@@ -5,8 +5,8 @@ import Footer from "@components/footer";
 import { Montserrat } from "next/font/google";
 
 export const metadata = {
-  title: "Wallpaper Aisle",
-  description: "Browse and upload desktop images"
+  title: "Jason Chen Portfolio",
+  description: "Portfolio of a passionate Web Designer, Programmer, and Software Engineer"
 }
 
 const montserrat = Montserrat({

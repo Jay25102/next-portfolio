@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+.skills-card {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.about-me-section {
+  padding-right: 100px;
+}
+
 .about-me-text {
   padding: 0px 100px;
 }
@@ -24,6 +38,12 @@ header {
   height: 45px;
   font-size: 20px;
   background-color: #ffffff;
+}
+
+.home-text {
+  display: flex;
+  align-items: center;
+  height: 1.2em;
 }
 
 .transitioning-exit {

@@ -1,5 +1,7 @@
 import HomeText from "@components/home-text";
 import About from "@components/about";
+import RecentWork from "@components/recent-work";
+import Skills from "@components/skills";
 
 const Home = () => {
   return (
@@ -12,7 +14,7 @@ const Home = () => {
         <Header/> */}
 
       {/* body home*/}
-      <div className="box-border block bg-light-blue-cust">
+      <div id="home" className="box-border block bg-light-blue-cust">
         <div className="box-border block body-block px-8 relative flex justify-center items-center">
           {/* make explore/share links */}
           <HomeText />
@@ -20,12 +22,23 @@ const Home = () => {
       </div>
 
       {/* body Who I am */}
-      <div className="box-border block bg-white-cust">
+      <div id="about-me" className="box-border block bg-white-cust">
         <div className="box-border body-about-me block px-8 relative flex justify-center items-center">
           <About/>
         </div>
       </div>
 
+      <div className="box-border block bg-white-cust">
+        <div className="box-border body-about-me block px-8 relative flex justify-center items-center">
+          <RecentWork/>
+        </div>
+      </div>
+
+      <div className="box-border block bg-white-cust">
+        <div className="box-border body-about-me block px-8 relative flex justify-center items-center">
+          <Skills/>
+        </div>
+      </div>
 
     </div>
 
