@@ -2,7 +2,9 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='flex h-full w-full flex-nowrap'>
+    <div className='flex h-full w-full flex-nowrap items-center justify-around'>
+      <div className='section-text text-6xl font-semibold text-orange-cust'>Skills</div>
+      
       <div className='flex flex-nowrap justify-between'>
         {/* frameworks/languages/soft skills */}
         <div className='skills-card bg-light-blue-cust'>
@@ -28,7 +30,7 @@ const Skills = () => {
         </div>
       </div>
         
-      <div className='about-me-text text-6xl font-semibold text-orange-cust'>Skills</div>
+      
     </div>
   )
 }

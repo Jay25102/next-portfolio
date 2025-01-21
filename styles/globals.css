@@ -6,6 +6,49 @@ html {
   scroll-behavior: smooth;
 }
 
+.recent-works-card {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.recent-works-details {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  transform: translateY(300px);
+  transition-duration: 0.5s;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-works-card:hover .recent-works-details {
+  transform: translateY(0);
+}
+
+.recent-works-img {
+  height: 100%;
+  width: 100%;
+  background-image: url("../public/pokemon_website.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+
+.recent-works-card:hover .recent-works-img {
+  opacity: 0.3;
+}
+
+.recent-works-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .skills-card {
   height: 200px;
   width: 200px;
@@ -14,9 +57,10 @@ html {
 
 .about-me-section {
   padding-right: 100px;
+  max-height: 400px;
 }
 
-.about-me-text {
+.section-text {
   padding: 0px 100px;
 }
 
