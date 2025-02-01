@@ -28,13 +28,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="box-border block bg-white-cust">
+      <div id="projects" className="box-border block bg-white-cust">
         <div className="box-border body-about-me block px-8 relative flex justify-center items-center">
           <RecentWork/>
         </div>
       </div>
 
-      <div className="box-border block bg-white-cust">
+      <div id="skills" className="box-border block bg-white-cust">
         <div className="box-border body-about-me block px-8 relative flex justify-center items-center">
           <Skills/>
         </div>

@@ -29,10 +29,21 @@ html {
   transform: translateY(0);
 }
 
+.pokemon-team-builder-img {
+  background-image: url("../public/pokemon_website.png");
+}
+
+.spam-detection-img {
+  background-image: url("../public/spam-results.png")
+}
+
+.jobly-img {
+  background-image: url("../public/jobly.png");
+}
+
 .recent-works-img {
   height: 100%;
   width: 100%;
-  background-image: url("../public/pokemon_website.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

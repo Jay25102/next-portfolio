@@ -1,29 +1,50 @@
 import pokemonWebsite from "../public/pokemon_website.png";
+import Link from "@node_modules/next/link";
 
 const RecentWork = () => {
   return (
     <div className='flex h-full w-full flex-nowrap items-center justify-around'>
       
       <div className="recent-works-container">
-        <div className='recent-works-card'>
-          <img className="recent-works-img"/>
+        <Link 
+          className='recent-works-card'
+          href="https://pokeapi-render.onrender.com/" 
+          target="_blank">
+          <img className="recent-works-img pokemon-team-builder-img"/>
           <div className="recent-works-details">
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptatibus alias dolores a quae sint ipsam mollitia tenetur nisi quasi officiis, vitae, ut aut quaerat magnam labore quam quo libero.
+              Allow authenticated users to search and add Pokemon to teams which are saved to their user profile.
+              Built using Flask, PostgreSQL, and the free PokeAPI.
             </div>
-            <button>Check it out</button>
           </div>
-        </div>
+        </Link>
 
-        <div className='recent-works-card'>
-          <img className="recent-works-img"/>
+        <Link 
+          className='recent-works-card'
+          href="https://github.com/Jay25102/spam-detection-project"
+          target="_blank">
+          <img className="recent-works-img spam-detection-img"/>
           <div className="recent-works-details">
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptatibus alias dolores a quae sint ipsam mollitia tenetur nisi quasi officiis, vitae, ut aut quaerat magnam labore quam quo libero.
+              Machine learning research project built in python for a Natural Language Processing course.
+              Testing the difference between two machine learning models on detecting spam/ham emails.
             </div>
-            <button>Check it out</button>
           </div>
-        </div>
+        </Link>
+
+        <Link 
+          className='recent-works-card'
+          href="https://jobly-frontend-12cp.onrender.com/"
+          target="_blank">
+          <img className="recent-works-img jobly-img"/>
+          <div className="recent-works-details">
+            <div>
+              Website that allows users to find and apply to jobs from various companies. Includes
+              user account creation and authentication. Full stack project built with React,
+              PostgreSQL, Flask, and Node.
+            </div>
+          </div>
+        </Link>
         
       </div>
 

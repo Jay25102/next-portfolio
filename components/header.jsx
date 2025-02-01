@@ -10,8 +10,8 @@ const Header = () => {
         <div>JC</div>
       </Link>
       <Link href="#about-me">About Me</Link>
-      <Link href="#">Projects</Link>
-      <Link href="#">Resume</Link>
+      <Link href="#projects">Projects</Link>
+      <Link href="#skills">Skills</Link>
     </header>
   )
 }
