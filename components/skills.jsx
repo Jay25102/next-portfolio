@@ -8,7 +8,9 @@ const Skills = () => {
       <div className='flex flex-nowrap justify-between'>
         {/* frameworks/languages/soft skills */}
         <div className='skills-card bg-light-blue-cust'>
-          Languages
+          <div className='text-3xl'>
+            Languages
+          </div>
           <div>HTML</div>
           <div>CSS</div>
           <div>JavaScript</div>
@@ -16,12 +18,17 @@ const Skills = () => {
         </div>
         
         <div className='skills-card'>
-          Database Management
+          <div className='text-3xl'>
+            Databases
+          </div>
           <div>PostgreSQL</div>
+          <div>MongoDB</div>
         </div>
         
         <div className='skills-card bg-light-blue-cust'>
-          Frameworks
+          <div className='text-3xl'>
+            Frameworks
+          </div>
           <div>Node.js</div>
           <div>Next.js</div>
           <div>React.js</div>

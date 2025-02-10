@@ -3,7 +3,7 @@ import Link from "@node_modules/next/link";
 
 const RecentWork = () => {
   return (
-    <div className='flex h-full w-full flex-nowrap items-center justify-around'>
+    <div className='flex h-full w-full items-center justify-around'>
       
       <div className="recent-works-container">
         <Link 

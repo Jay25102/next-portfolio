@@ -11,6 +11,8 @@ html {
   width: 300px;
   position: relative;
   overflow: hidden;
+  margin: 5px;
+  padding: 5px;
 }
 
 .recent-works-details {
@@ -23,6 +25,8 @@ html {
   padding: 14px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .recent-works-card:hover .recent-works-details {
@@ -51,12 +55,11 @@ html {
 }
 
 .recent-works-card:hover .recent-works-img {
-  opacity: 0.3;
+  opacity: 0.05;
 }
 
 .recent-works-container {
   display: flex;
-  justify-content: space-around;
 }
 
 
